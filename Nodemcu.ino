@@ -1,3 +1,4 @@
+//This code goes to Nodemcu
 #include <ESP8266WiFi.h>
 #include <Wire.h>
 const char* ssid = "GREENLAN";
