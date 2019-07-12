@@ -1,3 +1,4 @@
+//This code goes to Arduino
 #include <Wire.h>
 
 void setup() {
@@ -10,16 +11,6 @@ void setup() {
 }
 
 void loop() {
-//  while (0 <Wire.available()) {
-//    char c = Wire.read();      /* receive byte as a character */
-//    Serial.print(c);/* print the character */
-//    if(c =="A")
-//    {
-//     digitalWrite(13, LOW);   // turn the LED on (HIGH is the voltage level)
-//     delay(3000);     
-//    }
-//  }
-//         /* to newline */
 }
 
 // function that executes whenever data is received from master
@@ -38,7 +29,6 @@ void receiveEvent(int howMany) {
   }
  Serial.println();             /* to newline */
 }
-
 //// function that executes whenever data is requested from master
 //void requestEvent() {
 // Wire.write("Hello NodeMCU");  /*send string on request */
