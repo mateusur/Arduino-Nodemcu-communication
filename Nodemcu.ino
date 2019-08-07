@@ -1,8 +1,8 @@
 //This code goes to Nodemcu
 #include <ESP8266WiFi.h>
 #include <Wire.h>
-const char* ssid = "GREENLAN";
-const char* password = "green0912";
+const char* ssid = "Wifi";
+const char* password = "password";
  
 int ledPin = 14; // GPIO13---D7 of NodeMCU
 WiFiServer server(80);
